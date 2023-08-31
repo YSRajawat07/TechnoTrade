@@ -1,0 +1,26 @@
+open mac terminal window
+
+type command 
+
+crontab -e
+
+pree i to insert content  here
+
+copy and paste below line
+
+*/1 * * * * cd //Users/trilokagrawal/TechnoTradeInc/techno-trade/StockSelection && ./spread_planner.py >> //Users/trilokagrawal/TechnoTradeInc/techno-trade/logs/cron.log 2>&1
+
+(this will execute test.sh in every minute)
+
+save it with Esc and then wq!
+
+type command crontab -l to check whether your cron job listed or not
+
+create a test.sh file at the location given in cron job and paste below lines
+
+#!/bin/bash
+osascript -e 'tell app "Terminal"
+    do script "echo hello"
+end tell'
+
+save it. And you are done. Cron job should open a new terminal window everytime and print hello

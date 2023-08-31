@@ -1,0 +1,5 @@
+export PENTAHO_JAVA_HOME=/Library/Java/Home/bin
+
+/Library/Internet Plug-Ins/JavaAppletPlugin.plugin/Contents/Home/bin/java
+
+1.8	1.8.0_261	http://java.sun.com/products/autodl/j2se	/Library/Internet Plug-Ins/JavaAppletPlugin.plugin/Contents/Home/bin/java
